@@ -1,0 +1,41 @@
+---------------------------------------------------------------------------------Dataset Documentation: Postal Code Areas Cologne-------------------------------------------------------------------------------
+
+ 1. Dataset Description ##############################################################################################################################################################
+
+- **Title:**  Postal Code Areas Cologne
+- **Source:** Open Data Cologne ([https://offenedaten-koeln.de](https://offenedaten-koeln.de))  
+- **File Format:** JSON for Machinereading
+- **Size:**  
+- **Geographic Coverage:** City of Cologne, Germany  
+- **Temporal Coverage:** Current, continuously updated dataset  
+- **License:** Datenlizenz Deutschland – Zero – Version 2.0 free to use   
+- **Status:** Complete and publicly available
+
+2. Dataset Augmentation Idea ########################################################################################################################################################
+
+  Additional Dataset:
+    Demographic data of Cologne by postal code or district (from an open source)  
+ 
+Linking Method:
+    Joining on postal code as common key  
+
+Potential Research Questions:
+
+  - How does population density vary across different postal code areas?   
+  - Are there demographic patterns (age, income, etc.) associated with certain postal codes?  
+
+Next Steps for Merging:
+
+  - Obtain demographic dataset with postal code reference  
+  - Format alignment and data cleaning  
+  - Perform the join operation on postal code fields
+
+ 3. FAIR Principles Review ########################################################################################################################################################
+
+ Principle       Evaluation                                                                                  
+-------------------------------------------------------------------------------------------------------------
+ Findable        Dataset is easily found on an open data portal with descriptive metadata                    
+ Accessible      Dataset is downloadable or accessible via API without restrictions                          
+ Interoperable   Dataset is provided in machine-readable JSON format                                        
+ Reusable        Clear open license (Datenlizenz Deutschland – Zero – Version 2.0) and adequate documentation 
+
